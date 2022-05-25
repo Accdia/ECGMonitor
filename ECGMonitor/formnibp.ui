@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormNIBP</class>
+ <widget class="QWidget" name="FormNIBP">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>292</width>
+    <height>170</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="nibpModeLabel">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>宋体</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>测量模式：</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="startMeasButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>100</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>宋体</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>开始测量</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="stopMeasButton">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>100</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>宋体</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>停止测量</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="nibpModeComboBox">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>30</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>宋体</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>手动</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>1分钟</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2分钟</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>3分钟</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>4分钟</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>5分钟</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>10分钟</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>15分钟</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>30分钟</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>60分钟</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>90分钟</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>120分钟</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>180分钟</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>240分钟</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>480分钟</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
